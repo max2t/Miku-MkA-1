@@ -1451,9 +1451,9 @@ reply (` Supporter/in:\n\n1  +436608292027\n\n2  +4916093444217\n3  +49178878187
 }
 	
 if (smallinput==' .supporterin ') {
-reply (` Supporter/in:\n\n1  +436608292027\n\n2  +4916093444217\n3  +491788781873 `)
-	
-    if (smallinput.includes('Guten Morgen ') || smallinput.includes('good morning')) {
+reply ( ` Supporter/in:\n\n1 +436608292027\n\n2 +4916093444217\n3 +491788781873 ` )
+}
+    if ( smallinput . Includes ( 'Guten Morgen ' ) ||  smallinput . Includes ( 'Guten Morgen' )) {
       reply (`🌝was willst du jetzt 🌚`);
     }
 
@@ -1604,13 +1604,6 @@ reply(` Die Session-Id, des Bots ist: ${global.BotName} `)
 
 break
 
-case 'Gweb': case 'Gwebsite': case 'GWS': case 'oweb': case 'ownerwebsite': case 'owebsite':
-if (isBan) return reply(mess.banned)
-if (isBanChat) return reply(mess.bangc)
-reply(` Die Google-Website meines owners bzw. Inhabers ist:\n\nhttps://sites.google.com/view/max2-community-website `)
-	
-break
-
 case 'sup': case 'support': case 'frage': case '!': case 'supportanfrage': case 'sa':
 
         if (isBan) return reply(mess.banned)	 			        
@@ -1672,7 +1665,7 @@ reply (` Ankündigung(-en) werden hier rein gesendet:\n\nchat.whatsapp.com/G0nG2
 
 break 
 		
-case 'chat': case 'chatgruppe': case 'chatgroup': case 'cgr': case 'chatgr':
+case 'chatgruppe': case 'chatgroup': case 'cgr': case 'chatgr':
 if (isBan) return reply(mess.banned)	
 if (isBanChat) return reply(mess.bangc)
 reply (` Den Link zur Chatgruppe findest du hier:\n\nchat.whatsapp.com/H6ZzrPjmUD3E9Ja5Q9fSvv\n\nVielen Dank `)
@@ -1681,14 +1674,8 @@ case 'supchat': case 'chatgruppesup': case 'chatgruppesupport': case 'supch': ca
 if (isBan) return reply(mess.banned)	
 if (isBanChat) return reply(mess.bangc)
 reply (` Den Link zum Support-Chat findest du hier:\n\nchat.whatsapp.com/DOnXPARAhdg3qptwUlPuye\n\nVielen Dank `)
-		
-case 'kontakt': case 'contact': case 'kowner': case 'cowber':
-if (isBan) return reply(mess.banned)
-if (isBanChat) return reply(mess.bangc)
-if (!isCreator) return replay(mess.botowner)
-reply(` Die Website meines Owners ist:\n\nbumpee.co/adv8w9mnho\n\nDie Google-Website meines Owners lautet:\n\nsites.google.com/view/max2-community-website\n\n `)
 
-break 
+break
 		
 case 'ringtone': {
     if (isBan) return reply(mess.banned)	 			
