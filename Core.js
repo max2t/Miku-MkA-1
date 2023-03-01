@@ -1452,63 +1452,6 @@ reply (` Supporter/in:\n\n1  +436608292027\n\n2  +4916093444217\n3  +49178878187
 	
 if (smallinput==' .supporterin ') {
 reply (` Supporter/in:\n\n1  +436608292027\n\n2  +4916093444217\n3  +491788781873 `)
-}
-	
-if (smallinput==' .mail ') {
-reply (` Die E-Mail meines Inhabers ist: max.public.community@gmail.com `)
-}
-	
-if (smallinput=='.EMail ') {
-reply (` Die E-Mail meines Inhabers ist: max.public.community@gmail.com `)
-}
-	
-if (smallinput=='.eMail ') {
-reply (` Die E-Mail meines Inhabers ist:\n\nMax.public.community@gmail.com `)
-}
-	
-if (smallinput=='.email ') {
-reply (` Die E-Mail meines Inhabers ist:\n\nMax.public.community@gmail.com `)
-}
-	
-if (smallinput=='.Bweb ') {
-reply (` Die B-Website meines Inhabers lautet:\n\nbumpee.co/adv8w9mnho `)
-}
-	
-if (smallinput=='.Bwebsite ') {
-reply (` Die B-Website meines Inhabers lautet:\n\nbumpee.co/adv8w9mnho `)
-}
-	
-if (smallinput=='.BWeb ') {
-reply (` Die B-Website meines Inhabers lautet:\n\nbumpee.co/adv8w9mnho `)
-}
-	
-if (smallinput=='.BWebsite') {
-reply (` Die B-Website meines Inhabers lautet:\n\nbumpee.co/adv8w9mnho `)
-}
-	
-if (smallinput=='.Bws ') {
-reply (` Die B-Website meines Inhabers lautet:\n\nbumpee.co/adv8w9mnho `)
-}
-	
-if (smallinput=='.BWS ') {
-reply (` Die B-Website meines Inhabers lautet:\n\nbumpee.co/adv8w9mnho `)
-}
-	
-if(smallinput=='.Gweb ') {
-reply (` Die Google-Website meines Inhabers lautet:\n\nhttps://sites.google.com/view/max2-community-website `)
-}
-	
-if(smallinput=='.gweb ') {
-reply (` Die Google-Website meines Inhabers lautet:\n\nhttps://sites.google.com/view/max2-community-website `)
-}
-	
-if(smallinput=='.Gwebsite ') {
-reply (` Die Google-Website meines Inhabers lautet:\n\nhttps://sites.google.com/view/max2-community-website `)
-}
-	
-if(smallinput=='.gwebsite ') {
-reply (` Die Google-Website meines Inhabers lautet:\n\nhttps://sites.google.com/view/max2-community-website `)
-} 
 	
     if (smallinput.includes('Guten Morgen ') || smallinput.includes('good morning')) {
       reply (`🌝was willst du jetzt 🌚`);
